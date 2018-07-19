@@ -1,0 +1,12 @@
+.main-content {
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 100%;
+	padding-top: 30px;
+  margin: 0 0 30px 125px;
+  margin-top: -50px
+}
+body {
+    background: rgb(250, 248, 248);
+    font: 400 14px 'Calibri','Arial';
+    padding: 20px;
+  }

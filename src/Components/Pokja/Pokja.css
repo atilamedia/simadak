@@ -1,0 +1,187 @@
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 97%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  table * {
+    position: relative;
+  }
+  table td, table th {
+    padding-left: 8px;
+  }
+  table thead tr {
+    height: 60px;
+    background: rgb(162, 214, 136);
+    font-size: 16px;
+  }
+  table tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #E3F1D5;
+  }
+  table tbody tr:last-child {
+    border: 0;
+  }
+  table td, table th {
+    text-align: left;
+  }
+  table td.l, table th.l {
+    text-align: left;
+  }
+  table td.c, table th.c {
+    text-align: left;
+  }
+  table td.r, table th.r {
+    text-align: center;
+  }
+  table td.r, table th.r {
+    text-align: center;
+  }
+  
+  /* @media screen and (max-width: 35.5em) {
+    table {
+      display: block;
+    }
+    table > *, table tr, table td, table th {
+      display: block;
+    }
+    table thead {
+      display: none;
+    }
+    table tbody tr {
+      height: auto;
+      padding: 8px 0;
+    }
+    table tbody tr td {
+      padding-left: 45%;
+      margin-bottom: 12px;
+    }
+    table tbody tr td:last-child {
+      margin-bottom: 0;
+    }
+    table tbody tr td:before {
+      position: absolute;
+      font-weight: 700;
+      width: 40%;
+      left: 10px;
+      top: 0;
+    }
+    table tbody tr td:nth-child(1):before {
+      content: "Modul";
+    }
+    table tbody tr td:nth-child(2):before {
+      content: "Pokja";
+    }
+    table tbody tr td:nth-child(3):before {
+      content: "Keterangan";
+    }
+    table tbody tr td:nth-child(4):before {
+      content: "Aksi";
+    }
+  } */
+
+  /* Style Untuk Button */
+  .btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    color: black;
+    border-radius: 0.6em;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    line-height: 1;
+    margin: 20px;
+    padding: 12px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 1.5%;
+  }
+  .fourth {
+    border-color: #f1c40f;
+    color: rgb(0, 0, 0);
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .fourth:hover {
+    background-position: 0;
+  }
+
+  /* Form Input  */
+.input1[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-bottom: 20px;
+    margin-left: 1.5%;
+    border-color: #f1c40f;
+
+}
+
+.input1[type=text]:focus {
+    width: 50%;
+}
+
+
+/* Warning Text*/
+.style1{
+  font-style: italic
+}
+
+.formfile{
+  margin-left: 1.5%;
+  margin-bottom: 30px;
+}
+
+/* style 4 untuk ukuran table */
+.style4{
+  width: 60%;
+  margin-left: 14px ;
+}
+
+
+/* Style untuk file dokument */
+
+.product-category-all li{
+  border:1px solid beige;
+  width: 60%; 
+  margin-left: 2%;
+}
+
+
+.product-category-all li:hover{
+  background-color: rgb(255, 185, 99);
+  color: white;
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  border: 2px solid white;
+}
+
+li > img {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  margin-left: -2%;
+}

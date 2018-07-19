@@ -1,0 +1,133 @@
+.table1 {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 97%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  .table1 * {
+    position: relative;
+  }
+  .table1 td, .table1 th {
+    padding-left: 8px;
+  }
+  .table1 thead tr {
+    height: 60px;
+    background: rgb(162, 214, 136);
+    font-size: 16px;
+  }
+  .table1 tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #E3F1D5;
+  }
+  .table1 tbody tr:last-child {
+    border: 0;
+  }
+  .table1 td, .table1 th {
+    text-align: left;
+  }
+  .table1 td.l, .table1 th.l {
+    text-align: left;
+  }
+  .table1 td.c, .table1 th.c {
+    text-align: left;
+  }
+  .table1 td.r, .table1 th.r {
+    text-align: center;
+  }
+  .table1 td.r, .table1 th.r {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 35.5em) {
+    .table1 {
+      display: block;
+    }
+    .table1 > *, .table1 tr, .table1 td, .table1 th {
+      display: block;
+    }
+    .table1 thead {
+      display: none;
+    }
+    .table1 tbody tr {
+      height: auto;
+      padding: 8px 0;
+    }
+    .table1 tbody tr td {
+      padding-left: 45%;
+      margin-bottom: 12px;
+    }
+    .table1 tbody tr td:last-child {
+      margin-bottom: 0;
+    }
+    .table1 tbody tr td:before {
+      position: absolute;
+      font-weight: 700;
+      width: 40%;
+      left: 10px;
+      top: 0;
+    }
+    .table1 tbody tr td:nth-child(1):before {
+      content: "Nama";
+    }
+    .table1 tbody tr td:nth-child(2):before {
+      content: "Pokja";
+    }
+    .table1 tbody tr td:nth-child(3):before {
+      content: "Fungsional";
+    }
+    .table1 tbody tr td:nth-child(4):before {
+      content: "Aksi";
+    }
+  }
+
+  /* Style Untuk Button */
+  .btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    line-height: 1;
+    margin: 20px;
+    padding: 12px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .fourth {
+    border-color: #f1c40f;
+    color: rgb(0, 0, 0);
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .fourth:hover {
+    background-position: 0;
+  }
+
+
+  /* Merapikan Posisi */
+
+  .right{
+    margin-left: -1%;
+    margin-top: 1%; 
+  }
+  .left{
+    margin-left: 1%;
+  }
